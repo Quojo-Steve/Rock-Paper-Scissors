@@ -32,6 +32,13 @@ rock.addEventListener("click", () => {
   results.innerHTML = winner;
   you.innerHTML = playerScore;
   computer.innerHTML = computerScore;
+    if (computerScore == 5) {
+      alert("Computer wins")
+    location.reload();
+    } else if (playerScore == 5) {
+        alert("You win")
+    location.reload();
+  }
 });
 
 paper.addEventListener("click", () => {
@@ -53,6 +60,13 @@ paper.addEventListener("click", () => {
   results.innerHTML = winner;
   you.innerHTML = playerScore;
   computer.innerHTML = computerScore;
+  if (computerScore == 5) {
+    alert("Computer wins")
+  location.reload();
+  } else if (playerScore == 5) {
+      alert("You win")
+  location.reload();
+}
 });
 
 scissor.addEventListener("click", () => {
@@ -74,4 +88,11 @@ scissor.addEventListener("click", () => {
   results.innerHTML = winner;
   you.innerHTML = playerScore;
   computer.innerHTML = computerScore;
+  if (computerScore == 5) {
+    alert("Computer wins")
+  location.reload();
+  } else if (playerScore == 5) {
+      alert("You win")
+  location.reload();
+}
 });
